@@ -1,38 +1,8 @@
-# Notebooks
-Notebooks para Introdução a Pesquisa.
+# A radiomics model from joint FDG-PET and MRI texture features for the prediction of lung metastases in soft-tissue sarcomas of the extremities
 
-# Recomendações
+- Notebooks, .csv's e requerimentos para o desenvolvimento de um software capaz prever as probabilidades do desenvolvimento ou não de metástase pulmonar através de diferentes imagens de MRI de sarcoma de tecido fino, e também emitir um pequeno relatório com estatísticas e características significantes a partir dessas imagens para posterior análise médica.
+
+## Recomendações
 - Python 3.10.4;
-- Instalar bibliotecas necessárias em `requirements.txt`;
-- Utilize ambiente virtual `vitualenv`.
+- Instalar os módulos necessários dispostos em `requirements.txt` através de um ambiente virtual `vitualenv`.
 
-## Instruções
-Tutorial para preparar o ambiente e executar os notebooks.
-
-### Linux
-- Instale o `virtualenv`;
-    ```bash
-    pip install virtualenv
-    ```
-- Crie um ambiente virtual;
-    ```bash
-    virtualenv -p python3.10 AC4UFPR 
-    ```
-- Ative o ambiente virtual;
-    ```bash
-    source AC4UFPR/bin/activate
-    ```
-- Instale requirimentos do repositório
-    ```bash
-    pip install -r path/to/requirements.txt
-    ```
-    note que se 
-- Adicionar ambiente no Jupyter,
-    ```bash
-    python -m ipykernel install --user --name=AC4UFPR
-    ```
-- Verifique que a presença do kernel no jupyter
-    ```bash
-    jupyter-kernelspec list
-    ```
-    deve aparecer o kernel que criou.
